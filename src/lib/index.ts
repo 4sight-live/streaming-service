@@ -1,6 +1,7 @@
 // place files you want to import through the `$lib` alias in this folder.
 import '@total-typescript/ts-reset';
 import { fingerprint } from './utils/fingerprint';
+import '@mux/mux-player';
 
 import { init } from './services/analytics';
 
