@@ -82,6 +82,7 @@
 		"vitest": "^2.1.8"
 	},
 	"dependencies": {
+		"@aws-sdk/client-ivs": "^3.856.0",
 		"@esbuild-kit/esm-loader": "^2.6.5",
 		"@eslint/js": "^9.19.0",
 		"@fortawesome/fontawesome-free": "^6.7.2",
