@@ -32,6 +32,4 @@ export namespace Streaming {
 	});
 }
 
-
-
 export const _streamKeys = Streaming.StreamKeys.table;
