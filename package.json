@@ -32,7 +32,8 @@
 		"build:email": "pnpm script mjml-batch",
 		"backup": "pnpm script backup",
 		"restore": "pnpm script restore",
-		"test:schema": "pnpm script test-schema"
+		"test:schema": "pnpm script test-schema",
+		"doc": "pnpm script build-docs"
 	},
 	"engines": {
 		"node": ">=22.12.0"
@@ -57,6 +58,7 @@
 		"@types/cli-table": "^0.3.4",
 		"@types/express": "^5.0.3",
 		"@types/fuzzy-search": "^2.1.5",
+		"@types/mime-types": "^3.0.1",
 		"@types/multiparty": "^4.2.1",
 		"@types/node": "^22.17.0",
 		"@types/nodemailer": "^6.4.17",
@@ -76,6 +78,8 @@
 		"svelte": "^5.37.2",
 		"svelte-check": "^4.3.0",
 		"ts-node": "^10.9.2",
+		"typedoc": "^0.28.9",
+		"typedoc-plugin-markdown": "^4.8.0",
 		"typescript": "^5.9.2",
 		"typescript-eslint": "^8.38.0",
 		"vite": "^5.4.19",
@@ -118,6 +122,7 @@
 		"filepond-plugin-image-transform": "^3.8.7",
 		"flatpickr": "^4.6.13",
 		"fuzzy-search": "^3.2.1",
+		"glob": "^11.0.3",
 		"google-auth-library": "^9.15.1",
 		"googleapis": "^144.0.0",
 		"halfmoon": "2.0.2",
@@ -127,6 +132,7 @@
 		"jsoneditor": "^10.3.0",
 		"markdown-it": "^14.1.0",
 		"math": "git+https://github.com/tsaxking/calculations",
+		"mime-types": "^3.0.1",
 		"mjml": "^4.15.3",
 		"multiparty": "^4.2.3",
 		"nodemailer": "^6.10.1",
@@ -136,7 +142,7 @@
 		"range-slider-input": "^2.4.4",
 		"redis": "^5.7.0",
 		"svelte-filepond": "^0.2.2",
-		"ts-utils": "git+https://github.com/tsaxking/global-ts-utilities",
+		"ts-utils": "github:tsaxking/global-ts-utilities",
 		"uuid": "^11.1.0",
 		"vite-node": "^3.2.4",
 		"yaml": "^2.8.0",
